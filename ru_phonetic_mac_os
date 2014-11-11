@@ -212,9 +212,15 @@ xkb_symbols "phonetic_winkeys" {
     include "ru(phonetic)"
     name[Group1]= "Russian (phonetic WinKeys)";
 
-    key	<LatX> {	[     Cyrillic_ha,     Cyrillic_HA	]	};
-    key	<LatH> {	[     Cyrillic_che,     Cyrillic_CHE	]	};
-    key	<AE12> {	[ Cyrillic_softsign, Cyrillic_softsign  ]	};
+    key <TLDE> {    [   Cyrillic_shcha,     Cyrillic_SHCHA  ]   };
+    key <LatW> {    [   Cyrillic_sha,       Cyrillic_SHA    ]   };
+    key <AD11> {    [   Cyrillic_yu,        Cyrillic_YU     ]   };
+    key <AD12> {    [   Cyrillic_zhe,       Cyrillic_ZHE    ]   };
+    key <LatH> {    [   Cyrillic_che,       Cyrillic_CHE    ]   };
+    key <LatX> {    [   Cyrillic_ha,        Cyrillic_HA     ]   };
+    key <LatV> {    [   Cyrillic_ve,        Cyrillic_VE     ]   };
+    key <AE11> {    [   Cyrillic_softsign,  Cyrillic_SOFTSIGN    ]   };
+    key <AE12> {    [   Cyrillic_hardsign,  Cyrillic_HARDSIGN  ]   };
 
 };
 
